@@ -18,11 +18,11 @@ const Home = ({ scrollToSection, setActiveSection }) => {
 
   // for text animation
   const textGroups = [
-    "I'm  Full-Stack Developer",
-    "Frame-work for Front-end",
-    "React , Next, RTK , Tailwind , Bootstrap ",
-    "Frame-work for Back-end",
-    "NodeJs , Express Js, MongoDB , Postgresql,Reddis",
+    "I'm a Full Stack Developer",
+    "Frontend: React, Next.js, Redux Toolkit, Tailwind, MUI, Bootstrap",
+    "Backend: Node.js, Express.js, NestJS",
+    "Databases: MongoDB, PostgreSQL",
+    "Tools: Prisma, Mongoose, Redis, Jest, Mocha, Git, Socket.IO",
   ];
 
   const [currentGroupIndex, setCurrentGroupIndex] = useState(0);
@@ -46,13 +46,13 @@ const Home = ({ scrollToSection, setActiveSection }) => {
             <h2 className="sm:text-4xl text-2xl font-bold">
               Hi, I'm Tint Zaw Htun!
             </h2>
-            <h1 className="sm:text-6xl text-xl font-semibold">Web Developer</h1>
+            <h1 className="sm:text-6xl text-xl font-semibold">Full Stack Developer</h1>
             <p className="sm:text-[25px] text-[15px] tracking-wide">
-              I'm a MERN stack-based full-stack web developer with
+              I'm a full-stack developer with
               <span className="main-text-color font-bold ml-2">
-                over 2 years
+                4+ years
               </span>{" "}
-              of experince
+              of experience building scalable web applications
             </p>
           </div>
           {/* button count up and chart  */}
@@ -81,11 +81,11 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                     <div className=" w-full flex flex-col justify-center items-center text-sm p-1">
                       <h1 className="sm:text-lg text-xl">
                         {count && (
-                          <CountUp start={0} end={2} duration={5} delay={0.5} />
+                          <CountUp start={0} end={4} duration={5} delay={0.5} />
                         )}
                         +
                       </h1>
-                      <h2>YEARS OF EXPERINCES</h2>
+                      <h2>YEARS OF EXPERIENCE</h2>
                     </div>
                     <div className=" w-full flex flex-col justify-center items-center text-sm p-1">
                       <h1 className="sm:text-lg text-xl">
@@ -123,7 +123,7 @@ const Home = ({ scrollToSection, setActiveSection }) => {
                 data-atropos-offset="3"
                 className="flex gap-5 flex-col sm:flex-row justify-around items-center"
               >
-                <a href={Cv} download="TintZawHtun_Cv">
+                <a href={Cv} download="Tint_Zaw_Htun_Resume.pdf">
                   <CustomizeButton> Download CV</CustomizeButton>
                 </a>
                 <div

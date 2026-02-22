@@ -57,22 +57,20 @@ const Contact = () => {
         <div className="sm:w-3/5 mb-5 p-5">
           <p className="leading-8 text-sm">
             Thank you for your attention. I am excited about the opportunity to
-            collaborate with you and bring your vision to life. With over a year
-            of experience as a MERN stack developer, I have successfully
-            contributed to a wide range of projects, from small business
-            websites to large-scale e-commerce platforms. My expertise spans
-            front-end development, back-end development, and website
-            maintenance. I am proficient in programming languages and
-            technologies such as HTML, CSS, JavaScript, React, Next.js, Node.js,
-            Express, Mongoose, Prisma, MongoDB, PostgreSQL, and Redis. I
-            recognize that effective communication is key to a project's
-            success, and I am committed to keeping you informed throughout the
-            development process. <br />I aim to work closely with you to ensure
-            that your website not only meets your specific requirements but also
-            exceeds your expectations. My goal is to deliver a high-quality
-            website that combines an attractive design with seamless
-            functionality. I am confident that my skills and experience align
-            perfectly with your project needs. <br />
+            collaborate with you and bring your vision to life. As a Full Stack
+            Developer with 4+ years of experience, I have built scalable web
+            applications using React, Next.js, Node.js, NestJS, and TypeScript.
+            My expertise includes RESTful and GraphQL APIs, real-time systems
+            (Socket.IO), MongoDB and PostgreSQL, and performance optimization. I
+            work well in Agile teams and have experience in mentoring and code
+            reviews. I am proficient in React, Next.js, Redux Toolkit, Tailwind,
+            Node.js, Express, NestJS, Prisma, Mongoose, MongoDB, PostgreSQL,
+            Redis, Jest, and Git. I recognize that effective communication is
+            key to a project's success, and I am committed to keeping you
+            informed throughout the development process. <br />I aim to work
+            closely with you to ensure that your product not only meets your
+            requirements but also exceeds your expectations. I am confident that
+            my skills and experience align well with your project needs. <br />
             Thank you for considering my application. I look forward to the
             opportunity to collaborate with you.
           </p>

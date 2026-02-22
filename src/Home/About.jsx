@@ -15,7 +15,7 @@ const About = () => {
             <h2 className="sm:text-3xl main-text-color text-2xl font-semibold ">
               <p>-Tint Zaw Htun</p>
               <ReactTyped
-                strings={["Web Developer", "Front-end", "Back-end"]}
+                strings={["Full Stack Developer", "Front-end", "Back-end"]}
                 typeSpeed={120}
                 backSpeed={70}
                 loop
@@ -24,13 +24,13 @@ const About = () => {
             </h2>
             <hr className="sm:w-36 w-20 border-[rgb(224,36,36)] border-b-2 mb-5" />
             <h1 className=" tracking-wider leading-8">
-              As a skilled MERN stack developer, I bring a unique combination of
-              expertise and creativity to the table. I am dedicated to
-              collaborating with your company to achieve exceptional results
-              that align with your goals. From conceptualization to deployment,
-              I focus on delivering top-notch solutions tailored to your
-              clients' specific needs. Explore more about me below and discover
-              the details of the projects I've worked on!
+              Full Stack Developer with 4+ years of experience building scalable
+              web applications using React, Next.js, Node.js, NestJS, and modern
+              TypeScript. Experienced in RESTful and GraphQL APIs, real-time
+              systems with Socket.IO, and databases (MongoDB, PostgreSQL). Strong
+              collaborator in Agile teams with mentoring and code review
+              experience. Explore more below and discover the projects I've
+              worked on!
             </h1>
           </div>
 
